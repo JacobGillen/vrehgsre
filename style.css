@@ -1,0 +1,218 @@
+* {
+    color: yellow;
+}
+
+body {
+    background-image: url("background.jpeg");
+    position: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: impact;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "cambria";
+}
+
+.movies {
+    text-align: left;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.movies1 {
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  right: 150px;
+}
+
+#emblem{
+  background-image: url(movies.jpeg);
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 375px;
+  height: 375px;
+}
+ 
+.shows {
+    text-align: right;
+    position: absolute;
+    top: 250px;
+    right: 150px;
+}
+
+#logo {
+  background-image: url(shows.jpeg);
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 375px;
+  height: 375px;
+}
+
+.home {
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  left: 150px;
+}
+
+
+
+#symbol {
+  background-image: url(home.jpeg);
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 375px;
+  height: 375px;
+}
+
+
+.form {
+    text-align: center;
+    position: absolute;
+    top: 225px;
+    left: 760px;
+}
+
+.btn-show-hide-pwd {
+  color: yellow;
+  cursor: pointer;
+  margin-left: 10px;
+  opacity: 0.5;
+}
+
+.btn-show-hide-pwd:hover {
+opacity: 1;
+}
+
+.btn-show-hide-pwd:active {
+  transform: scale(0.9);
+}
+
+
+input, textarea, select {
+
+    background-color : black; 
+  }
+
+  div{
+    display: inline-block;
+    background-size: 150px 150px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  }
+  
+  .text {
+    border: 2px solid white;
+  }
+
+  .grid{
+  margin-left: 630px;
+  }
+
+  .boxes {
+    border: 3px solid white;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .phantom, .clones, .sith, .story, .rogue, .empire, .jedi, .awakens, .rise, .clonewars, .badbatch, .rebels, .resistance, .mandalorian, .bobafett, .wars, .hope, .last{
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    width: 152px;
+    height: 70px;
+    overflow: auto;
+  }
+
+  .pm, .ac, .swcwm, .rts, .solo, .ro, .anh, .tesb, .rotj, .tfa, .tlj, .tros, .tcwts, .tbb, .str, .swr, .tm, .tbobf {
+    background-size: 150px;
+    background-position: center;
+  }
+
+.pm {
+    background-image: url("https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg");
+}
+  
+.ac {
+    background-image: url("https://m.media-amazon.com/images/I/61zAkpvYLqL._AC_SY741_.jpg");
+}
+  
+.swcwm {
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTI1MDIwMTczOV5BMl5BanBnXkFtZTcwNTI4MDE3MQ@@._V1_FMjpg_UX1000_.jpg");
+}
+
+.rts {
+    background-image: url("https://m.media-amazon.com/images/I/61oxsQleQJL._AC_SY606_.jpg");
+}
+  
+.solo {
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/solo-imax-oversize-1-sheet_a5d2aece.jpeg?region=0%2C0%2C1280%2C1857");
+}
+  
+.ro {
+    background-image: url("https://m.media-amazon.com/images/I/91cHWS+XaoL._AC_SL1500_.jpg");
+}
+  
+ 
+.anh {
+    background-image: url("https://imgc.allpostersimages.com/img/posters/star-wars-episode-iv-new-hope-classic-movie-poster_u-L-F5L5V30.jpg?artHeight=550&artPerspective=n&artWidth=550");
+}
+    
+.tesb {
+  background-image: url("https://m.media-amazon.com/images/I/61mVAe9vAtL._AC_SY741_.jpg");
+}
+    
+.rotj {
+  background-image: url("https://m.media-amazon.com/images/I/61c7U8DqV3L._AC_SY679_.jpg");
+}
+  
+.tfa {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg");
+}
+      
+.tlj {
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/sb_payoff_1-sht_v6_lg_tm_lg_e528c9e9.jpeg?region=0%2C0%2C810%2C1200");
+}
+      
+.tros {
+  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2019/10/rise-of-skywalker-theatrical-poster.jpg");
+}
+    
+/* Shows
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.tcwts {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE_EbKrjeTz2Zd9MeLwCStOhrf_rXYgbbleG8_FEl36tf8qcRS");
+}
+
+.tbb {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BZTVjNTVjMDMtNjUyMC00ZmM0LWE4OWMtMWZkNzY4NjM0NDMzXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg");
+}
+
+.str {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BY2Q1ZTAzNzMtMzlmNy00NjdjLThhYjgtMzgxN2ZkYmFhMDIwXkEyXkFqcGdeQXVyMjg5NDMwMQ@@._V1_.jpg");
+}
+
+.swr {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BMTkyMTc3NjAwNF5BMl5BanBnXkFtZTgwNTU1ODIyNjM@._V1_.jpg");
+}
+
+.tm {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg");
+}
+
+.tbobf {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BZjllZjE1MWEtYTJhZC00MWIyLTliMjEtYzM3ODc4YzQ2MjFlXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg");
+}
+  

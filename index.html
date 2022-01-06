@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cambria">
+        <script src="https://kit.fontawesome.com/f2bb29a341.js" crossorigin="anonymous"></script>
+        <title>Design Project:Star Wars movies + shows in order</title>
+        <meta name="description" content="An html basic: Boilerplate">
+        <meta name="Jacob" content="Star Wars">
+    </head>
+    <body>
+        <header>
+        <h1 class="h1">Star Wars</h1>
+        <h2 class="h2">Chronoligical movie and TV shows order (out in 2021)</h1>
+        </header>
+        <p class="movies"><a href="movie.html" id="emblem"></a></p>
+        <p class="shows"><a href="shows.html" id="logo"></a></p>
+        <form class="form">
+        <div class="group">
+        <label>Email</label>
+        <input type="text" required="required">
+        </div>
+        <br><br>
+        <div class="group">
+        <label>Password</label>
+        <input type="password" id="inp-password">
+            <i class="fas fa-eye btn-show-hide-pwd" data-for="inp-password"></i>
+            <script>
+                const allBtnSHP = document.querySelectorAll (".btn-show-hide-pwd");
+                allBtnSHP.forEach((button) => {
+                const forElement = document.getElementById(button.dataset.for);
+                if (forElement && forElement instanceof HTMLInputElement)  {
+                ["mousedown", "touchstart"].forEach((eventName) => {
+                button.addEventListener(eventName, () => {
+                forElement.setAttribute("type", "text");
+                             });
+                           });
+                ["mouseup", "mouseleave", "touchend", "touchcancel"].forEach((eventName) => {
+                button.addEventListener(eventName, (e) => {
+                e.preventDefault();
+                forElement.setAttribute("type", "password");
+                               });
+                           });
+                       }    
+                    }); 
+                </script>
+              </div>
+              <br><br>
+            <label for="security">Security Question</label>
+            <select name="security" id="security">
+                <option value="q1">What is the name of your first pets name?</option>
+                <option value="q2">Who was your grade 9 design teacher</option>
+                <option value="q2">What elementary school did you attend?</option>
+                </select><br><br>
+                <label for="bio">Enter you answer to the security question</label><br>
+                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="enter your bio"></textarea>
+                <br><br>
+                <label for="color">Choose your favorite colour</label><br><br>
+                <input type="color"><br><br>
+            <label for="date">When is your birthday?</label><br><br>
+                <input type="date"><br><br>
+                <div><input type="submit" onclick="return confirm('Are you sure?')" />
+
+                
+    </body>
+</html>
